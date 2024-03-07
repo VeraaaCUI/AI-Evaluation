@@ -1,6 +1,8 @@
 # A Comprehensive Overview of Evaluation Methods of Large Models
 
-## General Evaluations
+## General Methods
+
+### General Evaluations
 
 - **2020 MMLU** [[70]](https://arxiv.org/abs/2009.03300): Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, Jacob Steinhardt. "Measuring massive multitask language understanding." arXiv preprint arXiv:2009.03300 (2020).
 - **2021 DynaBench** [[94]](https://arxiv.org/abs/2104.14337): Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, et al. "DynaBench: Rethinking benchmarking in NLP." arXiv preprint arXiv:2104.14337 (2021).
@@ -21,7 +23,7 @@
 - **2023 MT-Bench** [[260]](https://arxiv.org/abs/2306.05685): Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric. P Xing, Hao Zhang, Joseph E. Gonzalez, Ion Stoica. "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena." arXiv:2306.05685 [cs.CL] (2023).
 - **2023 LLMEval2** [[252]](https://arxiv.org/abs/2308.01862): Xinghua Zhang, Bowen Yu, Haiyang Yu, Yangyu Lv, Tingwen Liu, Fei Huang, Hongbo Xu, Yongbin Li. "Wider and deeper llm networks are fairer llm evaluators." arXiv preprint arXiv:2308.01862 (2023).
 
-## Specifics Evaluations
+### Specifics Evaluations
 
 - **2022 MultiMedQA** [[177]](https://arxiv.org/abs/2212.13138): Karan Singhal, Shekoofeh Azizi, Tao Tu, S Sara Mahdavi, Jason Wei, Hyung Won Chung, Nathan Scales, Ajay Tanwani, Heather Cole-Lewis, Stephen Pfohl, et al. "Large Language Models Encode Clinical Knowledge." arXiv preprint arXiv:2212.13138 (2022).
 - **2023 ARB** [[171]]: Tomohiro Sawada, Daniel Paleka, Alexander Havrilla, Pranav Tadepalli, Paula Vidas, Alexander Kranias, John J. Nay, Kshitij Gupta, and Aran Komatsuzaki. "ARB: Advanced Reasoning Benchmark for Large Language Models." (2023).
@@ -35,7 +37,7 @@
 - **2023 GAOKAO-Bench** [[245]](https://arxiv.org/abs/2306.02408): Beichen Zhang, Kun Zhou, Xilin Wei, Wayne Xin Zhao, Jing Sha, Shijin Wang, and Ji-Rong Wen. "Evaluating and Improving Tool-Augmented Computation-Intensive Math Reasoning." arXiv preprint arXiv:2306.02408 (2023).
 - **2023 SafetyBench** [[254]](https://arxiv.org/abs/2309.07045): Zhexin Zhang, Leqi Lei, Lindong Wu, Rui Sun, Yongkang Huang, Chong Long, Xiao Liu, Xuanyu Lei, Jie Tang, and Minlie Huang. "SafetyBench: Evaluating the Safety of Large Language Models with Multiple Choice Questions." arXiv preprint arXiv:2309.07045 (2023).
 
-## Multimodal Evaluations
+### Multimodal Evaluations
 
 - **2023 MME** [[46]](https://arxiv.org/abs/2306.13394): Chaoyou Fu, Peixian Chen, Yunhang Shen, Yulei Qin, Mengdan Zhang, Xu Lin, Zhenyu Qiu, Wei Lin, Jinrui Yang, Xiawu Zheng, et al. "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models." arXiv preprint arXiv:2306.13394 (2023).
 - **2023 MMBench** [[126]](https://arxiv.org/abs/2307.06281): Yuan Liu, Haodong Duan, Yuanhan Zhang, Bo Li, Songyang Zhang, Wangbo Zhao, Yike Yuan, Jiaqi Wang, Conghui He, Ziwei Liu, Kai Chen, and Dahua Lin. "MMBench: Is Your Multi-modal Model an All-around Player?" arXiv:2307.06281 [cs.CV] (2023).
@@ -43,3 +45,5 @@
 - **2023 MM-Vet** [[238]](https://arxiv.org/abs/2308.02490): Weihao Yu, Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin, Zicheng Liu, Xinchao Wang, and Lijuan Wang. "Mm-vet: Evaluating large multimodal models for integrated capabilities." arXiv preprint arXiv:2308.02490 (2023).
 - **2023 LAMM** [[235]](https://arxiv.org/abs/2306.06687): Zhenfei Yin, Jiong Wang, Jianjian Cao, Zhelun Shi, Dingning Liu, Mukai Li, Lu Sheng, Lei Bai, Xiaoshui Huang, Zhiyong Wang, et al. "LAMM: Language-Assisted Multi-Modal Instruction-Tuning Dataset, Framework, and Benchmark." arXiv preprint arXiv:2306.06687 (2023).
 - **2023 LVLM-eHub** [[231]](https://arxiv.org/abs/2306.09265): Peng Xu, Wenqi Shao, Kaipeng Zhang, Peng Gao, Shuo Liu, Meng Lei, Fanqing Meng, Siyuan Huang, Yu Qiao, and Ping Luo. "LVLM-eHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models." arXiv:2306.09265 [cs.CV] (2023).
+
+# Large Models
