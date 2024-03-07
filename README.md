@@ -68,3 +68,68 @@
 - **2022**: FLAVA, GLIP, Flamingo, CoCa
 - **2023**: PaLM-E, Kosmos, CODi, NExT-GPT, LLavA, SAM, ImageBind, BLIP2, Minigpt-4, EMU2, GPT4V, Gemini
 - **2024**: Sora, EMO
+
+# Evaluation Leaderboards
+## GLUE 2018 Leaderboard
+| Rank | Team Name                     | Model                     | URL Score | CoLA  | SST-2 | MRPC      | STS-B     | QQP       |
+|------|-------------------------------|---------------------------|-----------|-------|-------|-----------|-----------|-----------|
+| 1    | Microsoft Alexander v-team    | Turing ULR v6             | 91.3      | 73.3  | 97.5  | 94.2/92.3 | 93.5/93.1 | 76.4/90.9 |
+| 2    | JDExplore d-team              | Vega v1                   | 91.3      | 73.8  | 97.9  | 94.5/92.6 | 93.5/93.1 | 76.7/91.1 |
+| 3    | Microsoft Alexander v-team    | Turing NLR v5             | 91.2      | 72.6  | 97.6  | 93.8/91.7 | 93.7/93.3 | 76.4/91.1 |
+| 4    | DIRL Team                     | DeBERTa + CLEVER          | 91.1      | 74.7  | 97.6  | 93.3/91.1 | 93.4/93.1 | 76.5/91.0 |
+| 5    | ERNIE Team - Baidu            | ERNIE                     | 91.1      | 75.5  | 97.8  | 93.9/91.8 | 93.0/92.6 | 75.2/90.9 |
+| 6    | AliceMind & DIRL              | StructBERT + CLEVER       | 91        | 75.3  | 97.7  | 93.9/91.9 | 93.5/93.1 | 75.6/90.8 |
+| 7    | DeBERTa Team - Microsoft      | DeBERTa / TuringNLRv4     | 90.8      | 71.5  | 97.5  | 94.0/92.0 | 92.9/92.6 | 76.2/90.8 |
+| 8    | HFL iFLYTEK                   | MacALBERT + DKM           | 90.7      | 74.8  | 97    | 94.5/92.6 | 92.8/92.6 | 74.7/90.6 |
+| 9    | PING-AN Omni-Sinitic          | ALBERT + DAAF + NAS       | 90.6      | 73.5  | 97.2  | 94.0/92.0 | 93.0/92.4 | 76.1/91.0 |
+| 10   | T5 Team - Google              | T5                        | 90.3      | 71.6  | 97.5  | 93.1/92.0 | 75.1/90.6 | 75.1/90.6 |
+
+## Benchmark Tasks
+
+### Single-sentence tasks:
+- **CoLA:** Determine if an English sentence is grammatically correct.
+- **SST-2:** Determine if the sentiment of a movie review sentence is positive or negative.
+
+### Similarity and paraphrase tasks:
+- **MRPC:** Judge whether two sentences are equivalent in meaning.
+- **QQP:** Determine whether two Quora questions are semantically equivalent.
+- **STS-B:** Evaluate the similarity between two sentences on a scale of 1 to 5.
+
+### Inference tasks:
+- **MNLI:** Determine whether the hypothesis sentence is entailment, contradiction, or neutral with respect to the given premise sentence.
+- **QNLI:** Convert question-answering problems into sentence pair classification problems.
+- **RTE:** Determine whether one sentence entails another.
+- **WNLI:** Identify the correct reference of ambiguous pronouns in sentences.
+
+## SuperGLUE 2019 Leaderboard
+
+| Rank | Team Name                    | Model                          | URL Score | BoolQ    | CB  | COPA | MultiRC   | ReCoRD | RTE  | WiC  | WSC | Ax-b        |
+|------|------------------------------|--------------------------------|-----------|----------|-----|------|-----------|--------|------|------|-----|-------------|
+| 1    | JDExplore d-team             | Vega v2                        | 91.3      | 90.5/86.9 | 89.2 | 94.4 | 90.7/44.9 | 98     | 76.4 | 90.1 | 100 | 100.0/50.0  |
+| 2    | Liam Fedus                   | ST-MoE-32B                     | 91.2      | 92.4/96.9 | 89.2 | 94.4 | 93.5/77.7 | 99.5   | 76.6 | 92.6 | 96.1| 96.2/94.1  |
+| 3    | Microsoft Alexander v-team   | Turing NLR v5                  | 90.9      | 92.0/95.9 | 88.2 | 94.1 | 94.1/71.9 | 97.1   | 97.3 | 93.3 | 95.5| 95.3/95.5  |
+| 4    | ERNIE Team - Baidu           | ERNIE 3.0                      | 90.6      | 91.0/89.9 | 88.6 | 94.7 | 92.2/74.4 | 97.3   | 77.4 | 92.6 | 97.4| 92.6/94.7  |
+| 5    | Ty Tay                       | PaLM 540B                      | 90.4      | 91.9/94.4 | 88.7 | 94.3 | 91.0/72.3 | 97.4   | 77.9 | 95.2 | 95  | 92.5/95.0  |
+| 6    | Zirui Wang                   | T5 + UDG, Single Model (Google Brain) | 90.4 | 91.4/85.9 | 88.3 | 94.2 | 92.3/59.5 | 96.6   | 76.9 | 92.1 | 96.1| 92.1/79.1  |
+| 7    | DeBERTa Team - Microsoft     | DeBERTa / TuringNLRv4          | 90.3      | 90.4/95.7 | 88.4 | 94.5 | 94.1/53.2 | 97.5   | 77.9 | 95.6 | 93.8| 96.3/93.8  |
+| 8    | SuperGLUE Human Baselines    | SuperGLUE Human Baselines      | 89.8      | 89.0/95.8 | 81.8 | 91.7 | 93.6/80.0 | 100    | 75.6 | 96.6 | 99.9| 96.9/99.7  |
+| 9    | T5 Team - Google             | T5                             | 89.3      | 91.2/93.9 | 84.8 | 93.4 | 93.4/52.5 | 96.8   | 83.8 | 92.5 | 78.9| 92.6/79.1  |
+| 10   | SPoT Team - Google           | Frozen T5 1.1 + SPoT           | 89.2      | 91.1/95.8 | 96.5 | 93.9 | 92.4/75.8 | 96.7   | 88.3 | 85.7 | 85.7| 85.3/82.6  |
+
+## Benchmark Tasks
+
+- **BoolQ:** Evaluate sentence judgment and the relatedness of sentence pairs. Determine whether the answer to a question based on a passage is "Yes" or "No".
+
+- **CB:** Perform inference judgment and sentence pair relevance determination. Each instance includes a sentence pair tagged with one of the following labels: [entailment | contradiction | neutral].
+
+- **COPA:** Execute inference judgment by choosing one out of two sentences that best relates logically to a given premise.
+
+- **MultiRC:** Assess sentence judgment and answer multiple-choice questions. For each question related to a passage, indicate whether each proposed answer is True or False.
+
+- **ReCoRD:** Address sentence completion to identify the correct entity from a passage as the answer to a given question, without a set of options, requiring an exact match from the passage.
+
+- **RTE:** Engage in sentence judgment by evaluating whether one sentence can logically infer the content of another sentence.
+
+- **WiC:** Judge the meaning of a word to determine whether the same word used in two different sentences has the same meaning.
+
+- **WSC:** Analyze meaning judgment by resolving which entity in a sentence a given pronoun refers to.
