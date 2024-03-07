@@ -1,6 +1,6 @@
 # A Comprehensive Overview of Evaluation Methods of Large Models
 
-## General Methods
+## Evaluation Methods
 
 ### General Evaluations
 
