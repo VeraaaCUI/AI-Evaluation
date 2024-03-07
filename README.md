@@ -47,3 +47,24 @@
 - **2023 LVLM-eHub** [[231]](https://arxiv.org/abs/2306.09265): Peng Xu, Wenqi Shao, Kaipeng Zhang, Peng Gao, Shuo Liu, Meng Lei, Fanqing Meng, Siyuan Huang, Yu Qiao, and Ping Luo. "LVLM-eHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models." arXiv:2306.09265 [cs.CV] (2023).
 
 # Large Models
+
+## Language Models
+- **2018**: BERT, GPT-1
+- **2019**: DistilBERT, BART, T5, RoBERTa, GPT-2
+- **2020**: Wav2Vec2, GPT-3
+- **2021**: HuBERT, GLM
+- **2022**: Instruct GPT, PaLM
+- **2023**: Whisper, LLaMA, GPT-4, PaLM2, Claude2
+
+## Vision Models
+- **2020**: DETR, ImageGPT
+- **2021**: ViT, DeiT, YOLOS
+- **2022**: Swin Transformer, ViTDet, ViTMAE, BEiT
+- **2023**: DINOv2, LVM
+
+## Multimodal Models
+- **2020**: UniTER
+- **2021**: CLIP, ALIGN, ALBEF, DALL-E, Stable Diffusion
+- **2022**: FLAVA, GLIP, Flamingo, CoCa
+- **2023**: PaLM-E, Kosmos, CODi, NExT-GPT, LLavA, SAM, ImageBind, BLIP2, Minigpt-4, EMU2, GPT4V, Gemini
+- **2024**: Sora, EMO
