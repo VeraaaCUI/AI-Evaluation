@@ -150,3 +150,38 @@
 - **WiC:** Judge the meaning of a word to determine whether the same word used in two different sentences has the same meaning.
 
 - **WSC:** Analyze meaning judgment by resolving which entity in a sentence a given pronoun refers to.
+
+
+## MMLU 2021 Leaderboard
+|                Model               | Authors |  Humanities |  Social Sciences  | STEM | Other | Average |
+|------------------------------------|----------|:-------:|:-------:|:-------:|:-------:|:-------:|
+| [Chinchilla](https://arxiv.org/abs/2203.15556) (70B, few-shot) | Hoffmann et al., 2022 | 63.6 | 79.3 | 54.9 | 73.9 | 67.5
+| [Gopher](https://storage.googleapis.com/deepmind-media/research/language-research/Training%20Gopher.pdf) (280B, few-shot) | Rae et al., 2021 | 56.2 | 71.9 | 47.4 | 66.1 | 60.0
+| [GPT-3](https://arxiv.org/abs/2005.14165) (175B, fine-tuned) | Brown et al., 2020 | 52.5 | 63.9 | 41.4 | 57.9 | 53.9
+| [flan-T5-xl](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 46.3 | 57.7 | 39.0 | 55.1 | 49.3
+| [UnifiedQA](https://arxiv.org/abs/2005.00700) | Khashabi et al., 2020 | 45.6 | 56.6 | 40.2 | 54.6 | 48.9
+| [GPT-3](https://arxiv.org/abs/2005.14165) (175B, few-shot) | Brown et al., 2020 | 40.8 | 50.4 | 36.7 | 48.8 | 43.9
+| [GPT-3](https://arxiv.org/abs/2005.14165) (6.7B, fine-tuned) | Brown et al., 2020 | 42.1 | 49.2 | 35.1 | 46.9 | 43.2
+| [flan-T5-large](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 39.1 | 49.1 | 33.2 | 47.4 | 41.9
+| [flan-T5-base](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 34.0 | 38.1 | 27.6 | 37.0 | 34.2
+| [GPT-2](https://arxiv.org/abs/2005.14165) | Radford et al., 2019 | 32.8 | 33.3 | 30.2 | 33.1 | 32.4
+| [flan-T5-small](https://arxiv.org/abs/2210.11416) | Chung et al., 2022 | 29.9 | 30.9 | 27.5 | 29.7 | 29.5
+| Random Baseline           | N/A | 25.0 | 25.0 | 25.0 | 25.0 | 25.0 | 25.0
+
+## Benchmark Tasks
+
+### Humanities
+
+The humanities is a group of disciplines that utilize qualitative analysis and analytic methods rather than empirical scientific methods. Branches of the humanities include law, philosophy, history, and others as detailed in Appendix B. Mastering these subjects involves various skills. For instance, legal understanding necessitates knowledge of applying rules and standards to complex scenarios, providing answers with stipulations and explanations. Legal understanding is essential for grasping and following rules and regulations, which is a necessary capability to constrain open-world machine learning models. In philosophy, our questions encompass concepts like logical fallacies, formal logic, and famous philosophical debates. It also includes moral scenarios, featuring questions from the ETHICS dataset (Hendrycks et al., 2020) that test a model's grasp of normative statements by predicting widespread moral intuitions about diverse everyday scenarios. Furthermore, our history questions span a broad range of time periods and geographical locations, including prehistory and other advanced topics.
+
+### Social Science
+
+Social science encompasses branches of knowledge that investigate human behavior and society. Subject areas include economics, sociology, politics, geography, psychology, and more. Our economics questions cover microeconomics, macroeconomics, and econometrics, addressing different types of problems, including those requiring a mix of world knowledge, qualitative reasoning, or quantitative reasoning. We also delve into important but more esoteric topics such as security studies to test the limits of experiences and knowledge acquired during pretraining. Additionally, social science covers psychology, a discipline crucial for gaining a nuanced understanding of human behaviors.
+
+### Science, Technology, Engineering, and Mathematics (STEM)
+
+STEM subjects comprise physics, computer science, mathematics, among others. Conceptual physics questions test understanding of simple physical principles and can be considered a more challenging version of the physical commonsense benchmark, Physical IQA (Bisk et al., 2019). Mathematical problem-solving ability is tested at various difficulty levels, from elementary to college levels. College-level mathematics questions, similar to those on the GRE mathematics subject test, often require chains of reasoning and abstract knowledge. For mathematical expressions, we utilize LaTeX or symbols such as * and ^ for multiplication and exponentiation, respectively. STEM subjects demand knowledge of empirical methods, fluid intelligence, and procedural knowledge.
+
+### Other
+
+This category encompasses a long tail of subjects that do not neatly fit into the aforementioned categories or for which there are not thousands of freely available questions. Subjects in this section include the Professional Medicine task, which features challenging questions requiring many years of study for humans to master. Additionally, it includes business-related topics such as finance, accounting, and marketing, along with knowledge of global facts. This encompasses statistics about poverty in different countries over time, essential for forming an accurate global model of the world.
